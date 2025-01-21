@@ -5,10 +5,10 @@ import time
 from web3 import Web3
 
 
-web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/8a9b4912e9ed412bba61112afbf29162"))
+web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/API_KEY"))
 
 
-pair_address = '0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc'  
+pair_address = 'PAIR_ADDRESS'  
 
 
 pair_abi = [
